@@ -1,6 +1,6 @@
 Feature: Singup functionality
   " I want to singup without any error
-  so that I can access the G-user singin with successfully"
+  so that I can access the  Executive Partners singin with successfully"
 
   Scenario Outline: User can singup  with successfully
     Given I am in the home page

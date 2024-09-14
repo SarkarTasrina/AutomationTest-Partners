@@ -14,7 +14,7 @@ public class Hooks extends Base {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
-        host = property.getProperty("baseUrl");
+        host = property.("baseUrl");
     }
 
     @After

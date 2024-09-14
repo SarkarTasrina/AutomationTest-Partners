@@ -1,6 +1,6 @@
 Feature: singin functionality
   " I want to singin without any error
-  so that I can access the userDashboard with successfully"
+  so that I can access the G-userDashboard with successfully"
   Scenario: User can sing  with successfully
     Given I am in the home page
     When I click on the sing In menu
